@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="FHZ-ml-Jxu">
+                                <rect key="frame" x="0.0" y="100" width="375" height="567"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v75-2Z-G8T">
+                                <rect key="frame" x="0.0" y="115" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1I5-qp-hYp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="0.0039215686269999999" green="0.61960784310000006" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3d-ih-go7">
+                                <rect key="frame" x="0.0" y="70" width="375" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="RkM-Am-c1D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
+                                <color key="textColor" red="0.0039215686274509803" green="0.61960784313725492" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="v75-2Z-G8T" firstAttribute="top" secondItem="a3d-ih-go7" secondAttribute="bottom" id="B0t-q7-bZJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a3d-ih-go7" secondAttribute="trailing" id="BHD-Aj-knb"/>
+                            <constraint firstItem="a3d-ih-go7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="D2c-fg-T04"/>
+                            <constraint firstItem="a3d-ih-go7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I0p-oM-GYY"/>
+                            <constraint firstItem="FHZ-ml-Jxu" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="100" id="Os6-2x-D7p"/>
+                            <constraint firstItem="v75-2Z-G8T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Quu-jZ-8y1"/>
+                            <constraint firstItem="FHZ-ml-Jxu" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Vg8-9O-olI"/>
+                            <constraint firstItem="FHZ-ml-Jxu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dhv-cb-e1O"/>
+                            <constraint firstItem="v75-2Z-G8T" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jW9-W2-wZR"/>
+                            <constraint firstItem="FHZ-ml-Jxu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uYF-FV-cNQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash" width="600" height="549"/>
+    </resources>
+</document>
